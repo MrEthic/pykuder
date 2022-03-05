@@ -1,0 +1,88 @@
+@import "https://fonts.googleapis.com/css?family=Red+Hat+Display:600&display=swap";
+
+
+progress {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress::-webkit-progress-value {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+progress::-moz-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+label {
+    align-self: center;
+    margin: 0 5px;
+}
+
+input[type=radio] {
+    align-self: center;
+    width: 1.4em;
+    height: 1.4em;
+    margin: 0 5px;
+}
+
+#main {
+    max-width: 1200px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: auto auto;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 50px;
+    background-color: crimson;
+    color: white;
+}
+
+#header p {
+    font-size: 24px;
+}
+
+#things div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 22px;
+    border-bottom: solid 2px dimgray;
+}
+
+#things div div {
+    border-bottom: None;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#bottom button {
+    color: white;
+    background-color: crimson;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: None;
+}
+
+#bottom button:hover {
+    background-color: darkred;
+}
